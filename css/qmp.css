@@ -10,8 +10,6 @@
     background-size: cover;
 }
 
-
-
 .movie {
     padding-top: 20px;
 }
@@ -24,12 +22,15 @@
 .movie:hover {
     text-decoration: none;
 }
+
 .movie:link {
     text-decoration: none;
 }
+
 .movie:visited {
     text-decoration: none;
 }
+
 .movie:active {
     text-decoration: none;
 }
@@ -79,63 +80,55 @@
     background: none;
 }
 
-
-.peliculaDetalle{
-    float:left;
-    background-color:#dfedd6;
-    height:274px;
+.peliculaDetalle {
+    float: left;
+    background-color: #dfedd6;
+    height: 274px;
 }
 
 .titulo {
-    font-size:19px;
-    padding-top:10px;
-    padding-left:20px;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
-.synopsis{
+.synopsis {
     width: 60%;
-    font-size:14px;
-    padding-top:10px;
-    padding-left:20px;
-    
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
-.imgPelicula{
-    
-    margin-right:25px;
-    
+.imgPelicula {
+    margin-right: 25px;
 }
 
-.trailer{
-    
-    padding-top:30px;
-    
+.trailer {
+    padding-top: 30px;
 }
 
-.trailerTitulo{
-    
-    font-size:30px;
-    margin-bottom:10px;
-    
+.trailerTitulo {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
-.buscar{
-    padding-right:23%;
+.buscar {
+    padding-right: 30%;
 }
 
-.fondo{
+.fondo {
     background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/13214619_1014999438596143_25648124_o.png?oh=072dc97b11b262718ee80eea42d80431&oe=573AD9B0");
 }
 
-.fondoContenido{
-    padding-top:15px;
-    background-color:#fff;
-    
+.fondoContenido {
+    padding-top: 15px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 .buttonBase {
     border-radius: 4px;
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 8px 25px;
@@ -151,7 +144,7 @@
 
 .buttonBase:hover {
     text-decoration: none;
-    color:black;
+    color: black;
     background-color: white;
     border-color: black;
     border-style: solid;
@@ -160,11 +153,15 @@
 
 .buttonBase:active {
     text-decoration: none;
-    color:black;
+    color: black;
+}
+
+.button5 {
+    background-color: #555555;
 }
 
 
-.button5 {background-color: #555555;} /* Black */
+/* Black */
 
 .nav-pills-custom {
     background-color: #555555;
@@ -174,7 +171,7 @@
     border-width: 1px;
 }
 
-.nav-pills-custom > li{
+.nav-pills-custom > li {
     background-color: #555555;
     border-radius: 5px;
     border-style: solid;
@@ -182,34 +179,135 @@
     border-width: 1px;
 }
 
-.nav-pills-custom > li:hover{
+.nav-pills-custom > li:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
 }
 
-.nav-pills-custom > li > a{
+.nav-pills-custom > li > a {
     background-color: #555555;
     color: white;
 }
 
-.nav-pills-custom > li > a:hover{
-     background-color: white;
-    color: black;
-}
-
-.nav-pills-custom > li.active > a{
+.nav-pills-custom > li > a:hover {
     background-color: white;
     color: black;
 }
 
-.nav-pills-custom > li.active > a:hover{
+.nav-pills-custom > li.active > a {
     background-color: white;
     color: black;
 }
 
-.nav-pills-custom > li.active > a:focus{
+.nav-pills-custom > li.active > a:hover {
     background-color: white;
     color: black;
 }
 
+.nav-pills-custom > li.active > a:focus {
+    background-color: white;
+    color: black;
+}
+
+.footerQMP {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footerQMP > label {
+    padding-top: 15px;
+    font-weight: lighter;
+}
+
+.columna-index-boostrap {
+   /*background-color: purple;*/
+}
+
+.columna-index {
+    /*height: 100%;*/
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%
+}
+
+.columna-index > label {
+    font-weight: inherit;
+    text-align: left;
+}
+
+.pagina_feed_item{
+    margin-top: 5px;
+    text-align: left;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #ccc;
+    background-color: #fff;
+}
+
+.pagina_feed_item:hover{
+    margin-top: 5px;
+    text-align: left;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #ccc;
+    background-color: #ccc;
+    cursor:pointer;
+}
+
+
+.pagina_feed_item_a > .pagina_feed_item {
+    cursor:pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagina_feed_item_a:hover{
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.pagina_feed_item_a > .pagina_feed_item > label{
+    cursor:pointer;
+}
+
+
+.pagina_feed_item_a > .pagina_feed_item > td:hover{
+    cursor:pointer;
+}
+
+.pagina_feed_item_a > .pagina_feed_item > tr:hover{
+    cursor:pointer;
+}
+
+.pagina_feed_item_a > .pagina_feed_item > table:hover{
+    cursor:pointer;
+}
+
+.pagina_feed_item_a > .pagina_feed_item >.rateyo-readonly-widg:hover{
+    cursor:pointer;
+}
+
+ .jq-ry-container[readonly=readonly]{
+    cursor:pointer
+    
+}
