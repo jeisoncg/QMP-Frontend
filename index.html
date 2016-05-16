@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="star/jquery.rateyo.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer.css" rel="stylesheet" />
+    <link href="css/qmp.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+
+<body class="container fondo">
+    <div class="cabezera"></div>
+
+    <nav class="navbar navbar-default">
+
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">QMP</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Ingresar</a></li>
+                   
+                </ul>
+                <form class="navbar-form navbar-right buscar" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Buscar peliculas, shows de tv, personas..." size="50">
+                    </div>
+                    <button type="submit" class="btn btn-default">Buscar</button>
+                </form>
+               
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    
+    <div class="col-md-9 fondoContenido">
+
+        <ul class="nav nav-pills">
+  <li class="active"><a data-toggle="tab" href="#tendencia">Tendencia</a></li>
+  <li><a data-toggle="tab" href="#estrenos">Estrenos</a></li>
+</ul>
+
+        <!--<ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#tendencia">Tendencia</a></li>
+            <li><a data-toggle="tab" href="#estrenos">Estrenos</a></li>
+        </ul>-->
+        <div class="tab-content">
+            <br>
+            <div id="tendencia" class=" tab-pane fade in active ">
+
+
+
+
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="https://image.tmdb.org/t/p/w185/rDT86hJCxnoOs4ARjrCiRej7pOi.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Civil War<div id="c1" value="0" class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="https://image.tmdb.org/t/p/w185/k1QUCjNAkfRpWfm1dVJGUmVHzGv.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Deadpool<div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="https://image.tmdb.org/t/p/w185/zSouWWrySXshPCT4t3UKCQGayyo.jpg" alt="...">
+                        <div class="caption">
+                            <h3>X-Men: Apocalypse<div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="https://image.tmdb.org/t/p/w185/cGOPbv9wA5gEejkUN892JrveARt.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Bat vs Sup<div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="https://image.tmdb.org/t/p/w185/vOipe2myi26UDwP978hsYOrnUWC.jpg" alt="...">
+                        <div class="caption">
+                            <h3>The Jungle Book<div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="https://image.tmdb.org/t/p/w185/b77l5vmp6PYsc98LE6Uf1mXtmHh.jpg" alt="...">
+                        <div class="caption">
+                            <h3>The Huntsman<div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div id="estrenos" class="tab-pane fade">
+
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="images/movie.png" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label <div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="images/movie.png" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label <div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="images/movie.png" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label <div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="images/movie.png" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label <div class="rateyo-readonly-widg"></div></h3>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="images/movie.png" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label <div class="rateyo-readonly-widg"></div></h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="#" class="thumbnail movie">
+                        <img src="images/movie.png" alt="...">
+
+                        <div class="caption">
+                            <h3>Thumbnail label <div class="rateyo-readonly-widg"></div></h3>
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-2">
+
+        <div class="row">
+
+
+
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+            </div>
+            <!-- /.col-lg-6 -->
+           <!-- <div class="input-group">
+                <input type="text" class="form-control" placeholder="Buscar...">
+                <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+            </div>-->
+            <!-- /input-group -->
+        </div>
+        <!-- /.row -->
+
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                        Men&uacute;
+                    </a>
+            </li>
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#">Shortcuts</a>
+            </li>
+            <li>
+                <a href="#">Overview</a>
+            </li>
+            <li>
+                <a href="#">Events</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+
+
+
+    </div>
+
+  <!-- <script type="text/javascript" src="star/jquery.min.js"></script>-->
+    <script type="text/javascript" src="star/jquery.rateyo.min.js"></script>
+
+    <script>
+        $(function() {
+
+            var rating = 3;
+
+
+                      $( "#c1" ).click(function() {
+                        alert( $("#c1").val());
+                      });
+            $(".counter").text(rating);
+
+        
+
+            $(".rateyo-readonly-widg").rateYo({
+                readOnly: true,
+                rating: rating,
+                numStars: 5,
+                precision: 10,
+                minValue: 1,
+                maxValue: 5
+            }).on("rateyo.change", function(e, data) {
+              $("#c1").val(data.rating);
+               
+            });
+        });
+
+
+    </script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
