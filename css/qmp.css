@@ -11,8 +11,14 @@
 }
 
 
+
 .movie {
     padding-top: 20px;
+}
+
+.movie > img {
+    height: 278px;
+    width: 185ps;
 }
 
 .movie:hover {
@@ -114,16 +120,11 @@
 }
 
 .buscar{
-    
     padding-right:23%;
-    
 }
 
 .fondo{
-    
-
     background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/13214619_1014999438596143_25648124_o.png?oh=072dc97b11b262718ee80eea42d80431&oe=573AD9B0");
-    
 }
 
 .fondoContenido{
@@ -131,3 +132,84 @@
     background-color:#fff;
     
 }
+
+.buttonBase {
+    border-radius: 4px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.buttonBase:hover {
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.buttonBase:active {
+    text-decoration: none;
+    color:black;
+}
+
+
+.button5 {background-color: #555555;} /* Black */
+
+.nav-pills-custom {
+    background-color: #555555;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #555555;
+    border-width: 1px;
+}
+
+.nav-pills-custom > li{
+    background-color: #555555;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #555555;
+    border-width: 1px;
+}
+
+.nav-pills-custom > li:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.nav-pills-custom > li > a{
+    background-color: #555555;
+    color: white;
+}
+
+.nav-pills-custom > li > a:hover{
+     background-color: white;
+    color: black;
+}
+
+.nav-pills-custom > li.active > a{
+    background-color: white;
+    color: black;
+}
+
+.nav-pills-custom > li.active > a:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav-pills-custom > li.active > a:focus{
+    background-color: white;
+    color: black;
+}
+
