@@ -108,8 +108,11 @@
 }
 
 .trailerTitulo {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-left: 10px;
 }
 
 .buscar {
@@ -117,7 +120,7 @@
 }
 
 .fondo {
-    background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/13214619_1014999438596143_25648124_o.png?oh=072dc97b11b262718ee80eea42d80431&oe=573AD9B0");
+    background-image: url("/images/fondo.png");
 }
 
 .fondoContenido {
